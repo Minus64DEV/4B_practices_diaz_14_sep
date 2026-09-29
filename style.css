@@ -1,0 +1,30 @@
+@font-face {
+                font-family: "Kiwi Soda";
+                src: url("KIWISODA.TTF");
+            }
+            *{
+                color: white;
+                font-family: "Kiwi Soda";
+            }
+            body{
+                background: #111111;
+            }
+            a{
+                width: 500px;
+                transform: translate(0px, 0px);
+                background: #111111;
+                padding: 5px;
+                border-radius: 5px;
+                line-height: 60px;
+                color: #ffffff;
+                text-decoration: none;
+                border: 3px solid black;
+                border-top: solid #666666;
+                border-left: solid #333333;
+                transition: 0.2s;
+            }
+            a:hover{
+                transform: translate(-3px, -3px);
+                background: #0000ff;
+                color:#ffffff;
+            }
